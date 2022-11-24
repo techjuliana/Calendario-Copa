@@ -1,10 +1,10 @@
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./GlobalStyles";
 import Home from "./pages/home";
-import { lightTheme} from "./theme/theme";
+import {tema} from "./theme/theme";
 function App() {
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={tema}>
       <GlobalStyles />
       <Home/>
     </ThemeProvider>
