@@ -11,3 +11,13 @@ export const Container = styled.div`
 export const Logo = styled.img`
   margin:3rem;
 `;
+
+export const Numeros = styled.img`
+right: 50px; 
+position: absolute;
+
+
+@media (max-width: 800px) {
+  display: none;
+  }
+`;

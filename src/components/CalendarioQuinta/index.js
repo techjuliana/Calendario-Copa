@@ -6,7 +6,8 @@ import {
   Informacao,
   Pais,
   Base,
-  Centralizar
+  Centralizar,
+  Numeros,
 } from "./styled";
 import brasil from "./../../assets/brazil.svg";
 import cameroon from "./../../assets/cameroon.svg";
@@ -14,10 +15,11 @@ import switzerland from "./../../assets/switzerland.svg";
 import ghana from "./../../assets/ghana.svg";
 import portugal from "./../../assets/portugal.svg";
 import serbia from "./../../assets/serbia.svg";
-
+import numeros from "./../../assets/number.svg"
 export default function CalendarioQuinta() {
   return (
     <Container>
+      <Numeros src={numeros} alt="numeros" />
       <Card>
       <Centralizar>
         <Base>

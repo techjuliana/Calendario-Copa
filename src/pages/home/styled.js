@@ -26,3 +26,6 @@ export const Grid = styled.section`
   display: flex;
   flex-wrap: wrap;
 `;
+
+
+

@@ -7,6 +7,7 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.section`
+  z-index: 5;
   padding-top: 1rem;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
   border-radius: 0.3rem;
@@ -68,4 +69,13 @@ export const Base = styled.section`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+`;
+
+export const Numeros = styled.img`
+left: 1rem; 
+bottom:9rem;
+position: absolute;
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;

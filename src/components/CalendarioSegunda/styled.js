@@ -7,6 +7,7 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.section`
+  z-index: 5;
   padding-top: 1rem;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
   border-radius: 0.3rem;
