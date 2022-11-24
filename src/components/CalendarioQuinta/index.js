@@ -16,30 +16,30 @@ import ghana from "./../../assets/ghana.svg";
 import portugal from "./../../assets/portugal.svg";
 import serbia from "./../../assets/serbia.svg";
 import numeros from "./../../assets/number.svg"
-export default function CalendarioQuinta() {
+export default function CalendarioQuinta({semana, data, horario1, horario2, horario3}) {
   return (
     <Container>
       <Numeros src={numeros} alt="numeros" />
       <Card>
       <Centralizar>
         <Base>
-          <Data>24/11</Data>
-          <Semana>QUINTA</Semana>
+          <Data>{data}</Data>
+          <Semana>{semana}</Semana>
         </Base>
         <Informacao>
           <li>
             <Pais src={switzerland} alt="pais" />
-            <span>07:00</span>
+            <span>{horario1}</span>
             <Pais src={cameroon} alt="pais" />
           </li>
           <li>
             <Pais src={portugal} alt="pais" />
-            <span>13:00</span>
+            <span>{horario2}</span>
             <Pais src={ghana} alt="pais" />
           </li>
           <li>
             <Pais src={brasil} alt="pais" />
-            <span>16:00</span>
+            <span>{horario3}</span>
             <Pais src={serbia} alt="pais" />
           </li>
         </Informacao>

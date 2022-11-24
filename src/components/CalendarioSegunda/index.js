@@ -15,29 +15,29 @@ import ghana from "./../../assets/ghana.svg";
 import uruguay from "./../../assets/uruguay.svg";
 import portugal from "./../../assets/portugal.svg";
 
-export default function CalendarioSegunda() {
+export default function CalendarioSegunda({semana, data, horario1, horario2, horario3}) {
   return (
     <Container>
       <Card>
         <Centralizar>
           <Base>
-            <Data>28/11</Data>
-            <Semana>SEGUNDA</Semana>
+            <Data>{data}</Data>
+            <Semana>{semana}</Semana>
           </Base>
           <Informacao>
             <li>
               <Pais src={southkorea} alt="pais" />
-              <span>10:00</span>
+              <span>{horario1}</span>
               <Pais src={ghana} alt="pais" />
             </li>
             <li>
               <Pais src={brasil} alt="pais" />
-              <span>13:00</span>
+              <span>{horario2}</span>
               <Pais src={switzerland} alt="pais" />
             </li>
             <li>
               <Pais src={portugal} alt="pais" />
-              <span>16:00</span>
+              <span>{horario3}</span>
               <Pais src={uruguay} alt="pais" />
             </li>
           </Informacao>
