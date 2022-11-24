@@ -6,7 +6,6 @@ export const Container = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  background-color: ${(props) => props.theme.header};
 `;
 
 export const Logo = styled.img`

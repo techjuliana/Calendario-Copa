@@ -9,7 +9,7 @@ import {
   Centralizar
 } from "./styled";
 import brasil from "./../../assets/brazil.svg";
-export default function CalendarioSegunda() {
+export default function CalendarioQuinta() {
   return (
     <Container>
       <Card>
