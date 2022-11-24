@@ -8,14 +8,20 @@ import {
   Base,
   Centralizar,
 } from "./styled";
-import brasil from "./../../assets/brazil.svg";
-import switzerland from "./../../assets/switzerland.svg";
-import southkorea from "./../../assets/southkorea.svg";
-import ghana from "./../../assets/ghana.svg";
-import uruguay from "./../../assets/uruguay.svg";
-import portugal from "./../../assets/portugal.svg";
 
-export default function CalendarioSegunda({semana, data, horario1, horario2, horario3}) {
+export default function CalendarioSegunda({
+  semana,
+  data,
+  horario1,
+  horario2,
+  horario3,
+  pais1,
+  pais2,
+  pais3,
+  pais4,
+  pais5,
+  pais6,
+}) {
   return (
     <Container>
       <Card>
@@ -26,19 +32,19 @@ export default function CalendarioSegunda({semana, data, horario1, horario2, hor
           </Base>
           <Informacao>
             <li>
-              <Pais src={southkorea} alt="pais" />
+              <Pais src={pais1} alt="pais" />
               <span>{horario1}</span>
-              <Pais src={ghana} alt="pais" />
+              <Pais src={pais2} alt="pais" />
             </li>
             <li>
-              <Pais src={brasil} alt="pais" />
+              <Pais src={pais3} alt="pais" />
               <span>{horario2}</span>
-              <Pais src={switzerland} alt="pais" />
+              <Pais src={pais4} alt="pais" />
             </li>
             <li>
-              <Pais src={portugal} alt="pais" />
+              <Pais src={pais5} alt="pais" />
               <span>{horario3}</span>
-              <Pais src={uruguay} alt="pais" />
+              <Pais src={pais6} alt="pais" />
             </li>
           </Informacao>
         </Centralizar>
