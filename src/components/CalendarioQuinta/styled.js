@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-  margin: 1rem;
-  
+  margin: 1.2rem;
 `;
 
 export const Card = styled.section`
+  padding-top: 1rem;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
   border-radius: 0.3rem;
   background: ${(props) => props.theme.card};
@@ -21,7 +21,7 @@ export const Card = styled.section`
 `;
 
 export const Centralizar = styled.div`
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 `;
@@ -44,13 +44,19 @@ export const Semana = styled.section`
 export const Informacao = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
+
   span {
     font-weight: 700;
     font-size: 1.8rem;
+    position: relative;
+    bottom: 20px;
+    left: 0px;
+    margin: 1.4em;
   }
   li {
-    margin: 1.2rem;
+    padding: 1rem;
+    border-bottom: 1px solid #323238;
   }
 `;
 
