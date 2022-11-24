@@ -5,10 +5,10 @@ import { Container, Grid } from "./styled";
 export default function Home() {
   return (
     <Container>
-      <Header />
+      <Header/>
       <Grid>
-        <CalendarioSegunda />
         <CalendarioQuinta />
+        <CalendarioSegunda />
       </Grid>
     </Container>
   );

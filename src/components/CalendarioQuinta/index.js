@@ -9,6 +9,12 @@ import {
   Centralizar
 } from "./styled";
 import brasil from "./../../assets/brazil.svg";
+import cameroon from "./../../assets/cameroon.svg";
+import switzerland from "./../../assets/switzerland.svg";
+import ghana from "./../../assets/ghana.svg";
+import portugal from "./../../assets/portugal.svg";
+import serbia from "./../../assets/serbia.svg";
+
 export default function CalendarioQuinta() {
   return (
     <Container>
@@ -20,19 +26,19 @@ export default function CalendarioQuinta() {
         </Base>
         <Informacao>
           <li>
-            <Pais src={brasil} alt="pais" />
+            <Pais src={switzerland} alt="pais" />
             <span>07:00</span>
-            <Pais src={brasil} alt="pais" />
+            <Pais src={cameroon} alt="pais" />
           </li>
           <li>
-            <Pais src={brasil} alt="pais" />
+            <Pais src={portugal} alt="pais" />
             <span>13:00</span>
-            <Pais src={brasil} alt="pais" />
+            <Pais src={ghana} alt="pais" />
           </li>
           <li>
             <Pais src={brasil} alt="pais" />
             <span>16:00</span>
-            <Pais src={brasil} alt="pais" />
+            <Pais src={serbia} alt="pais" />
           </li>
         </Informacao>
         </Centralizar>
