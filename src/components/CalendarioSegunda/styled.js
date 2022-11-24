@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-  margin: 13rem;
+  margin: 1rem;
   /* background-repeat: no-repeat;
 background: rgb(30,30,30);
 background: linear-gradient(0deg, rgba(30,30,30,1) 46%, rgba(33,43,56,1) 59%, rgba(34,50,70,1) 64%, rgba(41,84,137,1) 100%, rgba(44,98,164,1) 100%, rgba(46,111,190,1) 100%, rgba(51,138,243,1) 100%); */
@@ -59,7 +59,7 @@ flex-direction: column;
 
 export const Base = styled.section`
 width:8.6rem;
- border: 0.1rem solid #338af3;
+ border: 0.1rem solid ${(props) => props.theme.borda};
  border-radius:5px;
  margin:1rem;
  display:flex;

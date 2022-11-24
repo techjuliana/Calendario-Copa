@@ -4,7 +4,7 @@ export const GlobalStyles = createGlobalStyle`
 
  body {
   font-family: 'Roboto', sans-serif;
-  color: #E1E1E6;
+  color: ${(props) => props.theme.text};
  }
 
  * {
@@ -17,5 +17,4 @@ export const GlobalStyles = createGlobalStyle`
   text-decoration:none;
   color:inherit;
 }
-
 `;
